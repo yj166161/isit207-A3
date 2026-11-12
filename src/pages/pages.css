@@ -337,7 +337,7 @@
   margin: 0;
   padding: 56px 28px;
   box-sizing: border-box;
-  background: white;
+  background-color: #FFF8E8;
 }
 
 .account-heading {
@@ -1545,27 +1545,48 @@
   padding-bottom: 70px;
 }
 
-/* Page Heading */
+/* Page Banner */
 
-.adopt-heading {
+.adopt-banner{
+  width: 100%;
+  min-height: 360px;
+  background-image: url('/images/about-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+.adopt-banner-overlay {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 8%;
+  background: rgba(35, 29, 22, 0.48);
+}
+
+.adopt-banner-content{
+  max-width: 750px;
   text-align: center;
-  padding: 65px 20px 45px;
-  background: #F5E5BD;
+  color: #FFFFFF;
 }
 
-.adopt-heading h1 {
-  font-size: 2.5rem;
-  color: #493B2A;
-  margin-bottom: 15px;
+.adopt-banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  color: #FFFFFF;
 }
 
-.adopt-heading p {
+.adopt-banner-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
   max-width: 650px;
   margin: 0 auto;
-  color: #796B58;
-  font-size: 1.05rem;
-  line-height: 1.7;
+  color: #FFFFFF;
 }
+
+
 
 /* Pet Directory */
 
@@ -1761,7 +1782,7 @@
   margin-bottom: 10px;
 }
 
-
+/* ====================================================== */
 
 
 
@@ -2202,15 +2223,19 @@
   /* ABOUT US PAGE */
 
   .about-banner,
-  .about-banner-overlay {
+  .about-banner-overlay,
+  .adopt-banner,
+  .adopt-banner-overlay {
     min-height: 320px;
   }
 
-  .about-banner-overlay {
+  .about-banner-overlay,
+  .adopt-banner-overlay {
     padding: 45px 6%;
   }
 
-  .about-banner-content h1 {
+  .about-banner-content h1,
+  .adopt-banner-content h1 {
     font-size: 2.4rem;
   }
 
@@ -2218,7 +2243,8 @@
     font-size: 1.3rem;
   }
 
-  .about-banner-content p {
+  .about-banner-content p,
+  .adopt-banner-content p {
     font-size: 0.95rem;
     line-height: 1.7;
   }

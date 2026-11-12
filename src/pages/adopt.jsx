@@ -177,12 +177,16 @@ const Adopt = ({ user }) => {
     <div className="adopt-page"  ref={pageRef}>
       
       {/* page heading*/}
-      <section className="adopt-heading">
-        <h1>Find Your New Best Friend</h1>
-        <p>
-          Every pet deserves a loving home. Browse our adorable pets
-          and find the perfect companion for your family.
-        </p>
+      <section className="adopt-banner">
+        <div className="adopt-banner-overlay">
+          <div className="adopt-banner-content">
+            <h1>Find Your New Best Friend</h1>
+            <p>
+              Every pet deserves a loving home. Browse our adorable pets
+              and find the perfect companion for your family.
+            </p>
+            </div>
+        </div>
       </section>
 
       {/* Pet Directory */}
