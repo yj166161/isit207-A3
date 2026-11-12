@@ -75,11 +75,11 @@ const AdoptForm = () => {
                 {/* Selected Pet Information */}
                 <div className="selected-pet">
                     <img src={pet.image} alt={pet.name} />
-                </div>
-                <div>
-                    <h2>{pet.name}</h2>
-                    <p>{pet.breed}</p>
-                    <p>{pet.age} · {pet.gender}</p>
+                    <div className="selected-pet-info">
+                        <h2>{pet.name}</h2>
+                        <p>{pet.breed}</p>
+                        <p>{pet.age} · {pet.gender}</p>
+                    </div>
                 </div>
             
         
