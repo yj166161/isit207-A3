@@ -43,7 +43,7 @@ const MyApplications = () => {
       type: 'Adoption',
       petName: 'Max',
       breed: 'Golden Retriever',
-      image: '/images/hero-dog.jpg',
+      image: '/images/adopt-max.jpg',
       username,
       fullName: 'Alex Johnson',
       email: 'alex.johnson@example.com',
