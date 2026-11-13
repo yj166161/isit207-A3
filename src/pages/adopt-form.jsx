@@ -44,9 +44,11 @@ const AdoptForm = () => {
 
         localStorage.setItem('applications', JSON.stringify(applications));
 
-        alert('Thank You For Your Application!');
-
-        navigate('/my-applications')
+        navigate('/my-applications', {
+          state: {
+            message: 'Your adoption application has been submitted successfully! Our staff will contact you for more information.'
+          }
+        });
     
     };
 

@@ -539,8 +539,7 @@
 .why-card:hover,
 .petcare-card:hover,
 .compare-card:hover,
-.petcare-warning:hover,
-.petcare-quiz-card:hover {
+.petcare-warning:hover {
   transform: translateY(-7px);
   box-shadow: 0 12px 30px rgba(73, 59, 42, 0.14);
 }
@@ -860,14 +859,6 @@
   line-height: 1.7;
 }
 
-.petcare-subtitle {
-  display: inline-block;
-  color: #B98250;
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 2px;
-  margin-bottom: 12px;
-}
 
 /* Pet Care Essentials */
 
@@ -1017,9 +1008,9 @@
   gap: 18px;
   margin: 40px auto 0;
   padding: 22px 25px;
-  background: #F5E5BD;
-  border-left: 5px solid #B98250;
-  border-radius: 10px;
+  background: #FFF4F1;
+  border: 1px solid #C96B5C;
+  border-radius: 12px;
 }
 
 .petcare-emergency span {
@@ -1029,7 +1020,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #B98250;
+  background: #C96B5C;
   color: #FFFFFF;
   border-radius: 50%;
   font-weight: 700;
@@ -1550,7 +1541,7 @@
 .adopt-banner{
   width: 100%;
   min-height: 360px;
-  background-image: url('/images/about-banner.jpg');
+  background-image: url('/images/adopt-banner.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -2080,7 +2071,6 @@
   margin: 25px auto;
   padding: 20px;
   background: #F5E5BD;
-  border-left: 5px solid #B98250;
   border-radius: 8px;
   color: #493B2A;
 }

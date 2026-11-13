@@ -244,7 +244,7 @@ const PetCare = () => {
       <section className="petcare-vet reveal">
 
         <div className="petcare-heading">
-          <span className="petcare-subtitle">YOUR PET'S HEALTH MATTERS</span>
+          
           <h2>When Should You Visit a Veterinarian?</h2>
           <p>
             Pay attention to changes in your pet's behaviour and health.
@@ -296,7 +296,7 @@ const PetCare = () => {
       <section className="petcare-quiz-section reveal">
 
         <div className="petcare-quiz-heading">
-          <span className="petcare-subtitle">TEST YOUR KNOWLEDGE</span>
+          
           <h2>How Well Do You Know Pet Care?</h2>
           <p>
             Think you know how to care for your furry friends?
