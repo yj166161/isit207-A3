@@ -42,7 +42,7 @@ const Home = () => {
     localStorage.setItem('memberFeedback', JSON.stringify(updatedFeedback));
     setFeedback(updatedFeedback);
     setFeedbackName('');
-    setFeedbackRating('5');
+    setFeedbackRating('');
     setFeedbackComment('');
     setFeedbackMessage('Thank you for sharing your feedback!');
   };
@@ -197,13 +197,14 @@ const Home = () => {
                 id="feedback-rating"
                 value={feedbackRating}
                 onChange={(e) => setFeedbackRating(e.target.value)}
+                required
               > 
-                <option value="">Choose 1-5 Stars</option>
-                <option value="5">5 stars</option>
-                <option value="4">4 stars</option>
-                <option value="3">3 stars</option>
-                <option value="2">2 stars</option>
-                <option value="1">1 star</option>
+                <option value="" selected disabled hidden>Select rating...</option>
+                <option value="5">★★★★★— Excellent </option>
+                <option value="4">★★★★— Very good</option>
+                <option value="3">★★★— Good</option>
+                <option value="2">★★— Fair</option>
+                <option value="1">★— Poor</option>
               </select>
             </div>
 
