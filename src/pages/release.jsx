@@ -134,7 +134,7 @@ const Release = ({ username, pendingRelease, onPendingReleaseChange }) => {
         <h1>Release a Pet</h1>
         <p>
           We understand that rehoming a pet can be difficult.
-          PawPals is here to help you find a loving new home for your pet.
+          PetHeaven is here to help you find a loving new home for your pet.
         </p>
       </section>
 

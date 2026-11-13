@@ -29,7 +29,7 @@ const Login = ({ onLogin }) => {
     <main className="account-page">
       <header className="account-heading">
         <h1>Welcome back</h1>
-        <p>Log in to your PawPals account.</p>
+        <p>Log in to your PetHeaven account.</p>
       </header>
       <div className="account-container">
         <section className="account-box">

@@ -26,7 +26,7 @@ const SignUp = ({ onSignup }) => {
     <main className="account-page">
       <header className="account-heading">
         <h1>Create an account</h1>
-        <p>Sign up to get started with PawPals.</p>
+        <p>Sign up to get started with PetHeaven.</p>
       </header>
       <div className="account-container">
         <section className="account-box">

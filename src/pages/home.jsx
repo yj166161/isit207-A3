@@ -137,7 +137,7 @@ const Home = () => {
       <section className="reviews-section reveal">
         <div className="reviews-content">
           <h2>What Our Adopters Say</h2> 
-            <p>Hear from families who found their new best friends through PawPals!</p>
+            <p>Hear from families who found their new best friends through PetHeaven!</p>
         </div>
         <div className="reviews-container">
 
@@ -162,7 +162,7 @@ const Home = () => {
           <div className="reviews-card">
             <div className="review-stars">★★★★★</div>
             <p>
-              "PawPals made everything easy and stress-free.
+              "PetHeaven made everything easy and stress-free.
               I would definitely recommend adopting here!"
             </p>
             <h3>Emily R.</h3>
@@ -175,7 +175,7 @@ const Home = () => {
       <section className="feedback-section reveal">
         <div className="feedback-content">
           <h2>Share Your Feedback</h2>
-          <p>Tell us about your experience with PawPals.</p>
+          <p>Tell us about your experience with PetHeaven.</p>
         </div>
         <div className="feedback-form">
           <form onSubmit={handleFeedbackSubmit}>

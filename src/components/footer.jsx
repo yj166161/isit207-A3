@@ -9,7 +9,7 @@ const Footer = () => {
 
         {/* Branding */}
         <div className="footer-brand">
-          <h2>PawPals</h2>
+          <h2>PetHeaven</h2>
           <p>
             Helping pets find loving homes, one paw at a time.
             Because every pet deserves a second chance.
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="footer-contact" id="contact">
           <h3>Contact Us</h3>
           <p>Tel: 61234567</p>
-          <p>Email: hello@pawpals.com</p>
+          <p>Email: hello@petheaven.com</p>
           <p>Address: 50 Sungei Tengah Rd, Singapore 699012</p>
         </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
 
       
       <div className="footer-bottom">
-        <p>© 2026 PawPals. All Rights Reserved.</p>
+        <p>© 2026 PetHeaven. All Rights Reserved.</p>
       </div>
     </footer>
   );

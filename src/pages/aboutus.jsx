@@ -6,11 +6,11 @@ const AboutUs = () => {
   return (
     <div className="about-page" ref={pageRef}>
   
-      {/* About PawPals Section */}
+      {/* About PetHeaven Section */}
       <section className="about-banner">
         <div className="about-banner-overlay">
           <div className="about-banner-content">
-            <h1>About PawPals</h1>
+            <h1>About PetHeaven</h1>
             <h2>Every Paw Deserves A Loving Home</h2>
             <p>
               Dedicated to helping dogs and cats find loving,
@@ -133,7 +133,7 @@ const AboutUs = () => {
       {/* Why Choose Section */}        
       <section className="why-section reveal">
         <div className="about-section-heading">
-          <h2>Why Choose PawPals?</h2>
+          <h2>Why Choose PetHeaven?</h2>
           <p>Making a difference, one paw at a time.</p>
         </div>
         
@@ -203,7 +203,7 @@ const AboutUs = () => {
               <strong>Call Us:</strong> 61234567
             </p>
             <p>
-              <strong>Email Us:</strong> hello@pawpals.com
+              <strong>Email Us:</strong> hello@petheaven.com
             </p>
             <p>
               <strong>Operating Hours:</strong>
@@ -222,7 +222,7 @@ const AboutUs = () => {
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
-              title="PawPals Location"
+              title="PetHeaven Location"
             ></iframe>
           </div>
 
