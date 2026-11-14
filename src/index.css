@@ -7,15 +7,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --color-text: #black;
-  --color-muted: #687368;
-  --color-heading: #263a2b;
-  --color-primary: #527b55;
-  --color-primary-hover: #0759f1;
-  --color-background: #white;
-  --color-surface: #ffffff;
-  --color-border: #e4e9df;
-  --shadow-card: 0 12px 30px rgba(43, 61, 43, 0.08);
+
 }
 
 * {
